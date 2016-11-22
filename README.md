@@ -13,13 +13,13 @@ use cd .....
 
 ```
 
-how to install:
+#how to install:
 
-#run first:
+##run first:
 
 `curl -fsSL https://raw.githubusercontent.com/kaidiren/smartcd/master/install.sh | sh`
 
-#then do:
+##then do:
 
 add command to your bashrc or bash_profile
 
@@ -29,6 +29,13 @@ if [ -f "~/.smartcd.sh" ]; then
 fi
 ```
 
-final:
+##final:
 
 `source` your  bashrc or bash_profile
+
+#how to remove
+
+```
+cd ~
+rm .smartcd.sh
+```
