@@ -24,7 +24,7 @@ use cd .....
 add command to your bashrc or bash_profile
 
 ```
-if [ -f "~/.smartcd.sh" ]; then
+if [ -f ~/.smartcd.sh ]; then
   source ~/.smartcd.sh
 fi
 ```
